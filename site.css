@@ -7,21 +7,24 @@ body {
     margin: 0;
 }
 
-h1, h2 {
+h1, h2, p {
     font-family: 'Crete Round';
+}
+
+.centerh1 {
+    text-align: center;
 }
 
 header {
     font-size: 1.5rem;
-}
-
-header::after {
-    display: block;
-    clear: both;
-    content: '';
+    
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin-bottom: auto;
     text-align: center;
 }
@@ -55,4 +58,18 @@ main {
 h1 {
     margin: 0;
     padding: 0;
+}
+
+.nav {
+    padding: 25px;
+
+}
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.contactContainer {
+    text-align: center;
 }
